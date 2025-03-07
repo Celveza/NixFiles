@@ -3,7 +3,7 @@ let
      spicePkgs = inputs.spicetify-nix.legacyPackages.${pkgs.stdenv.system};
 in
 {
-	import = [
+	imports = [
 		inputs.spicetify-nix.homeManagerModules.default
 	];
 	programs.spicetify = {
