@@ -12,6 +12,7 @@
     ./nh.nix
     ./nix.nix
     ./plymouth.nix
+    ./virt.nix
     ./regreet.nix
     ./steam.nix
     ./stylix.nix
