@@ -35,5 +35,6 @@
     heroic
     winetricks
     wineWowPackages.waylandFull
+    zenity
   ];
 }
