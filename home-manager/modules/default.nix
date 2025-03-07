@@ -6,7 +6,7 @@
     ./neovim.nix
     #./regreet.nix
     ./rofi.nix
-    #./spicetify.nix
+    ./spicetify.nix
     ./starship.nix
     ./swaync.nix
     ./waybar.nix
