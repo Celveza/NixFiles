@@ -9,7 +9,7 @@
     ./spicetify.nix
     ./starship.nix
     ./swaync.nix
-    ./waybar.nix
+    ./waybar
     ./fastfetch
     ./hyprland
     ./stylix
