@@ -16,7 +16,6 @@
     gedit
     imv
     vlc
-    git
     ueberzugpp
     unzip
     wget

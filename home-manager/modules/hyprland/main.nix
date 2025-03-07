@@ -104,7 +104,7 @@
 
             bind = [
                 "$mainMod, F1, exec, /nix/store/cpq7jp2p00lpni3nlpdpm2dq0qk8csp2-gamemode/bin/gamemode,"
-                "$mainMod, Q, exec, $terminal,"
+                "$mainMod, Q, exec, wezterm,"
                 "$mainMod, C, killactive,"
                 "$mainMod, M, exit,"
                 "$mainMod, E, exec, $fileManager"
