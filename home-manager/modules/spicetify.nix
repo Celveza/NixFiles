@@ -3,6 +3,9 @@ let
      spicePkgs = inputs.spicetify-nix.legacyPackages.${pkgs.stdenv.system};
 in
 {
+	import = [
+		inputs.spicetify-nix.homeManagerModules.default
+	];
 	programs.spicetify = {
 		enable = true;
 
