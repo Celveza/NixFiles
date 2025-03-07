@@ -13,5 +13,6 @@
     ./fastfetch
     ./hyprland
     ./stylix
+    ./wezterm.nix
   ];
 }

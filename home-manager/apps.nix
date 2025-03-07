@@ -19,7 +19,6 @@
     git
     ueberzugpp
     unzip
-    wezterm
     wget
     wl-clipboard
     zip
