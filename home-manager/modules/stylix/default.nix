@@ -69,6 +69,6 @@
 			size = 24;
 		};
 
-		image = ./wallpaper.png;
+		image = ./wallpaper.jpg;
 	};
 }

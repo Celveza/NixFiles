@@ -8,7 +8,9 @@
         "$fileManager"="thunar";
         "$mainMod"="SUPER";
         "$menu"="rofi -show drun";
-        "$terminal"="wezterm";
+        "$terminal" ="wezterm";
+        
+
         animations = {
         bezier = [
             "easeOutQuint,0.23,1,0.32,1"
@@ -148,7 +150,7 @@
                 ", Print, exec, grim ~/Pictures/screenshot-full-$(date +'%Y-%m-%d-%H%M%S').png && notify-send 'Captura de pantalla realizada'"
                 "$mainMod,       V, exec, cliphist list | $menu --dmenu | cliphist decode | wl-copy"
                 "$mainMod,       P, exec, hyprpicker -an"
-                "$mainMod,	 W, exec, firefox"
+                "$mainMod,	 W, exec, zen"
             ];
 
             bindel = [
@@ -183,7 +185,8 @@
                 "wl-paste --type image --watch cliphist store"
                 "waybar &"
             ];
-            monitor=",1920x1080@120,auto,1";
+            
+	    monitor=",1920x1080@120,auto,1";
             windowrulev2 = [
                 "suppressevent maximize, class:.*"
                 "nofocus,class:^$,title:^$,xwayland:1,floating:1,fullscreen:0,pinned:0"
