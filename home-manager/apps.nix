@@ -16,6 +16,7 @@
     gedit
     imv
     vlc
+    mono
     ueberzugpp
     unzip
     wget
