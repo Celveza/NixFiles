@@ -1,0 +1,21 @@
+{
+  imports = [
+    ./audio.nix
+    ./bluetooth.nix
+    ./boot.nix
+    ./env.nix
+    ./gc.nix
+    ./home-manager.nix
+    ./hyprland.nix
+    ./keyboard.nix
+    ./net.nix
+    ./nh.nix
+    ./nix.nix
+    ./plymouth.nix
+    ./regreet.nix
+    ./steam.nix
+    ./stylix.nix
+    ./thunar.nix
+    ./user.nix
+  ];
+}
