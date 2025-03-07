@@ -16,6 +16,7 @@
     ./regreet.nix
     ./steam.nix
     ./stylix.nix
+    ./tailscale.nix
     ./thunar.nix
     ./user.nix
   ];
