@@ -103,8 +103,6 @@
             };
 
             bind = [
-                "$mainMod, F1, exec, /nix/store/cpq7jp2p00lpni3nlpdpm2dq0qk8csp2-gamemode/bin/gamemode,"
-                "$mainMod, Q, exec, wezterm,"
                 "$mainMod, C, killactive,"
                 "$mainMod, M, exit,"
                 "$mainMod, E, exec, $fileManager"
@@ -151,6 +149,7 @@
                 "$mainMod,       V, exec, cliphist list | $menu --dmenu | cliphist decode | wl-copy"
                 "$mainMod,       P, exec, hyprpicker -an"
                 "$mainMod,	 W, exec, zen"
+		"$mainMod,	 Q, exec, wezterm"
             ];
 
             bindel = [
