@@ -12,6 +12,7 @@
     feishin
     ffmpeg
     ffmpegthumbnailer
+    networkmanagerapplet
     fzf
     gedit
     imv
