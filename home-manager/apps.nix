@@ -31,6 +31,7 @@
     lutris
     bottles
     mangohud
+    kdePackages.korganizer
     goverlay
     heroic
     winetricks
