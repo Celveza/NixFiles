@@ -14,6 +14,7 @@
     ffmpegthumbnailer
     networkmanagerapplet
     fzf
+    moonlight-qt
     gedit
     imv
     vlc
