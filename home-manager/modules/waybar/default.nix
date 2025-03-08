@@ -19,8 +19,8 @@ programs.waybar = {
       };
     };
     "clock" = {
-      format = " { %H:%M } ";
-      tooltip-format = "{:%Y-%m-%d}";
+      format = " {:%H:%M} ";
+      tooltip-format = "{:%d-%m-%Y}";
     };
 
     "custom/lock"= {
