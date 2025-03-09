@@ -17,9 +17,10 @@
     };
     zen-browser.url = "github:0xc000022070/zen-browser-flake";
     nix-flatpak.url = "github:gmodena/nix-flatpak";
+    ataraxiasjel.url = "github:AtaraxiaSjel/nur";
   };
 
-  outputs = { self, nixpkgs, home-manager, nix-flatpak, stylix, spicetify-nix,... }@inputs:
+  outputs = { self, nixpkgs, home-manager, nix-flatpak, stylix, spicetify-nix, ataraxiasjel, ... }@inputs:
   let
    system = "x86_64-linux";
    homeStateVersion = "24.11";
