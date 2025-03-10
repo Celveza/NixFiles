@@ -2,6 +2,7 @@
   imports = [
     ./gallery.nix
     ./git.nix
+    ./joplin.nix
     ./lazygit.nix
     ./neovim.nix
     #./regreet.nix
