@@ -4,6 +4,7 @@
 
   home.packages = with pkgs; [
     jellyfin-media-player
+    jellyfin-rpc
     htop
     pavucontrol
     vesktop
