@@ -3,7 +3,7 @@
   nixpkgs.config.allowUnfree = true;
 
   home.packages = with pkgs; [
-    joplin
+    joplin-desktop
     jellyfin-media-player
     jellyfin-rpc
     htop
