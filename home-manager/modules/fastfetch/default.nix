@@ -5,8 +5,8 @@ programs.fastfetch = {
     "display" = {
       "separator" = "~";
     };
-    "logo" = {
-      "source" = "./freieren.txt";
+    logo = {
+      source = ./freieren.txt;
     };
     "modules" = [
       "break"

@@ -183,6 +183,7 @@
                 "wl-paste --type text --watch cliphist store"
                 "wl-paste --type image --watch cliphist store"
                 "waybar &"
+		"jellyfin-rpc &"
             ];
             
 	    monitor=",1920x1080@120,auto,1";
