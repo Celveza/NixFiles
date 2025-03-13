@@ -24,7 +24,6 @@
   hardware.nvidia = {
 	modesetting.enable = true;
 	powerManagement.enable = true;
-
 	powerManagement.finegrained = true;
 	open = false;
 	nvidiaSettings = true;
@@ -32,7 +31,7 @@
 		intelBusId = "PCI:0:0:2";
 		nvidiaBusId = "PCI:0:1:0";
 
-		offload= {
+		offload = {
 			enable = true;
 			enableOffloadCmd = true;
 		};
