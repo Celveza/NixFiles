@@ -3,6 +3,9 @@
   nixpkgs.config.allowUnfree = true;
 
   home.packages = with pkgs; [
+    hyprshot
+    grim
+    slurp
     joplin-desktop
     jellyfin-media-player
     jellyfin-rpc
