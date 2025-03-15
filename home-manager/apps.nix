@@ -3,6 +3,7 @@
   nixpkgs.config.allowUnfree = true;
 
   home.packages = with pkgs; [
+    playerctl
     hyprshot
     grim
     slurp
