@@ -149,6 +149,7 @@
                 "$mainMod,       V, exec, cliphist list | $menu --dmenu | cliphist decode | wl-copy"
                 "$mainMod,       P, exec, hyprpicker -an"
                 "$mainMod,	 W, exec, zen"
+		"$mainMod SHIFT, W, exec, zen --private-window"
 		"$mainMod,	 Q, exec, wezterm"
             ];
 
