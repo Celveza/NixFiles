@@ -184,6 +184,7 @@
                 "wl-paste --type text --watch cliphist store"
                 "wl-paste --type image --watch cliphist store"
                 "waybar &"
+		"systemctl --user start hyprpolkitagent"
 		"jellyfin-rpc &"
             ];
             
