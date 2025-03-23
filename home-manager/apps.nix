@@ -3,6 +3,10 @@
   nixpkgs.config.allowUnfree = true;
 
   home.packages = with pkgs; [
+    deluge
+    unrar
+    yad
+    p7zip
     playerctl
     hyprshot
     grim
@@ -41,6 +45,8 @@
     bottles
     mangohud
     kdePackages.korganizer
+    kdePackages.akonadi
+    khal
     goverlay
     heroic
     winetricks
