@@ -1,4 +1,4 @@
 {
 networking.networkmanager.enable = true;
-time.timeZone = "Europe/Madrid";
+time.timeZone = "Europe/Dublin";
 }
