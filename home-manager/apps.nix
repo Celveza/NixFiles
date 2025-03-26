@@ -3,6 +3,11 @@
   nixpkgs.config.allowUnfree = true;
 
   home.packages = with pkgs; [
+    ppsspp
+    openvpn
+    xdelta
+    protonup-qt
+    umu-launcher
     deluge
     unrar
     yad
