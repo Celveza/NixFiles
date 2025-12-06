@@ -89,7 +89,8 @@
         natural_scroll=true;
         };
         follow_mouse=true;
-        kb_layout="es";
+        kb_layout="es,us";
+	kb_options=grp:alt_shift_toggle;
         sensitivity=0;
         };
 
@@ -183,7 +184,6 @@
                 "blueman-applet"
                 "wl-paste --type text --watch cliphist store"
                 "wl-paste --type image --watch cliphist store"
-                "waybar &"
 		"systemctl --user start hyprpolkitagent"
 		"jellyfin-rpc &"
             ];

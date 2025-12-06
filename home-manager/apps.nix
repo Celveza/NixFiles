@@ -8,6 +8,8 @@
    ]; 
   
   home.packages = with pkgs; [
+    airshipper
+    mysql-workbench
     octave
     steam-rom-manager
     libreoffice
@@ -23,7 +25,7 @@
     duckstation
     melonDS
     retroarch
-    cartridges
+    vscode
     android-tools
     gnome-disk-utility
     tree
