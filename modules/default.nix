@@ -20,6 +20,7 @@
     ./steam.nix
     ./stylix.nix
     ./sunshine.nix
+    ./sql.nix
     ./tailscale.nix
     ./thunar.nix
     ./user.nix
