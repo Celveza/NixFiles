@@ -1,92 +1,87 @@
 { pkgs, inputs, ... }:
 {
   nixpkgs.config.allowUnfree = true;
- 
+
   nixpkgs.config.permittedInsecurePackages = [
-                 "electron-33.4.11"
- 		 "qtwebengine-5.15.19"
-   ]; 
-  
+    "electron-33.4.11"
+  ];
+
   home.packages = with pkgs; [
+    adwsteamgtk
     airshipper
-    mysql-workbench
-    octave
-    steam-rom-manager
-    libreoffice
-    bitwarden-desktop
-    dosbox
-    dolphin-emu
-    ryubing
-    mpv
-    xivlauncher
-    oneko
-    protontricks
-    kdePackages.kdenlive
-    duckstation
-    melonDS
-    retroarch
-    vscode
     android-tools
-    gnome-disk-utility
-    tree
     anydesk
-   # teamspeak3
-    teamspeak6-client
     azahar
-    ppsspp
-    openvpn
-    xdelta
-    protonup-qt
-    umu-launcher
-    deluge
-    unrar
-    yad
-    p7zip
-    playerctl
-    hyprshot
-    grim
-    slurp
-    inputs.mio-nur.packages.${pkgs.system}.jellyfin-media-player
-    jellyfin-rpc
-    htop
-    pavucontrol
-    vesktop
+    bitwarden-desktop
     bottom
+    brave
     brightnessctl
     cliphist
+    deluge
+    dolphin-emu
+    dosbox
+    duckstation
     feishin
     ffmpeg
     ffmpegthumbnailer
-    networkmanagerapplet
     fzf
-    moonlight-qt
+    gamescope
     gedit
-    imv
-    vlc
-    mono
-    ueberzugpp
-    unzip
-    wget
-    wl-clipboard
-    zip
-    libnotify
-    linux-wallpaperengine
-    krita
-    zed
-    brave
-    adwsteamgtk
-    lutris
-    bottles
-    mangohud
-   # kdePackages.korganizer
-    kdePackages.akonadi
-    khal
+    gnome-disk-utility
     goverlay
+    grim
     heroic
-    winetricks
+    htop
+    hyprshot
+    imv
+    inputs.mio-nur.packages.${pkgs.system}.jellyfin-media-player
+    inputs.zen-browser.packages."${pkgs.system}".beta
+    jellyfin-rpc
+    kdePackages.akonadi
+    kdePackages.kdenlive
+    khal
+    krita
+    libnotify
+    libreoffice
+    linux-wallpaperengine
+    lutris
+    mangohud
+    melonDS
+    mono
+    moonlight-qt
+    mpv
+    mysql-workbench
+    networkmanagerapplet
+    octave
+    openvpn
+    p7zip
+    pavucontrol
+    playerctl
+    ppsspp
+    protontricks
+    protonup-qt
+    retroarch
+    ryubing
+    slurp
+    steam-rom-manager
+    teamspeak6-client
+    tree
+    ueberzugpp
+    umu-launcher
+    unrar
+    unzip
+    vesktop
+    vlc
+    vscode
+    wget
     wineWowPackages.staging
+    winetricks
+    wl-clipboard
+    xdelta
+    xivlauncher
+    yad
+    zed
     zenity
-    inputs.zen-browser.packages."${system}".beta
+    zip
   ];
-
 }
