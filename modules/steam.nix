@@ -10,6 +10,7 @@ programs.steam = {
 
 services.hardware.openrgb.enable = true;
 environment.systemPackages = with pkgs; [ openrgb-with-all-plugins ];
-
+services.gnome.gnome-keyring.enable = true;
 programs.gamemode.enable = true;
+
 }

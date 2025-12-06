@@ -23,9 +23,10 @@
     zen-browser.url = "github:0xc000022070/zen-browser-flake";
     nix-flatpak.url = "github:gmodena/nix-flatpak";
     ataraxiasjel.url = "github:AtaraxiaSjel/nur";
+    jovian.url = "github:Jovian-Experiments/Jovian-NixOS";
   };
 
-  outputs = { self, nixpkgs, home-manager, nix-flatpak, stylix, spicetify-nix, ataraxiasjel, mio-nur, ... }@inputs:
+  outputs = { self, nixpkgs, home-manager, nix-flatpak, stylix, spicetify-nix, ataraxiasjel, mio-nur, jovian, ... }@inputs:
   let
    system = "x86_64-linux";
    homeStateVersion = "25.11";
@@ -42,6 +43,9 @@
 
    modules = [
      stylix.nixosModules.stylix
+
+	jovian.nixosModules.jovian
+
      ./hosts/${hostname}/configuration.nix    
    ];
   };

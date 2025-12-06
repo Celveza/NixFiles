@@ -12,7 +12,7 @@
         nerd-fonts.symbols-only
         dejavu_fonts
 	    	noto-fonts-lgc-plus
-				iosevka
+		iosevka
 	];
 
 

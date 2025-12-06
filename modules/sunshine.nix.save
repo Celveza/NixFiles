@@ -1,5 +1,4 @@
-{ pkgs, nur, ... }:
-{
+{ pkgs, nur, ... }: {
 	services.sunshine = {
 		enable = true;
 		autoStart = true;
@@ -12,12 +11,6 @@
 			apps = [
 				{
 					name = "Jellyfin";
-					prep-cmd = [
-						{
-							do = "tailscale up";
-							undo = "tailscale down";
-						}
-					];
 					cmd = "jellyfinmediaplayer --fullscreen --tv";
 					detached = true;
 					auto-detach = true;
@@ -27,19 +20,6 @@
 				{
 					name = "Desktop";
 					image-path = "desktop.png";
-				}
-			
-				{
-					name = "Steam";
-					prep-cmd = [
-						{
-							undo = "pkill steam";
-						}
-					];
-					cmd = "wezterm start steam steam://open/gamepadui";
-					detached = true;
-					auto-detach = true;
-					image-path = "/home/celveza/Pictures/Steam.png";
 				}
 			];
 		};

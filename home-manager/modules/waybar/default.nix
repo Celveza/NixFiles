@@ -105,9 +105,6 @@ programs.waybar = {
         "9"= "IX";
         "magic"= "";
       };
-      persistent-workspaces = {
-        "*"= 3;
-      };
       show-special = true;
       special-visibility-only = true;
     };
@@ -116,14 +113,12 @@ programs.waybar = {
       "custom/weather"
       "clock"
       "pulseaudio"
+      "custom/vpn"
     ];
     modules-left = [
       "hyprland/workspaces"
     ];
     modules-right = [
-      "group/IP"
-      "backlight"
-      "battery"
       "tray"
       "group/power"
     ];

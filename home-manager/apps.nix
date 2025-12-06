@@ -8,6 +8,9 @@
    ]; 
   
   home.packages = with pkgs; [
+    octave
+    steam-rom-manager
+    libreoffice
     bitwarden-desktop
     dosbox
     dolphin-emu

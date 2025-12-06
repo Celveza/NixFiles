@@ -7,6 +7,7 @@
   ];
  
   virtualisation.libvirtd.enable = true;
+  virtualisation.libvirtd.qemu.vhostUserPackages = [pkgs.virtiofsd];
   virtualisation.waydroid.enable = true;
 
   virtualisation.virtualbox.host.enable = true;
