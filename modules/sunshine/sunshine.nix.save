@@ -33,7 +33,7 @@
 					name = "Steam";
 					prep-cmd = [
 						{
-							undo = "sh /home/celveza/NixFiles/modules/sunshine/stopSteam.sh";
+							undo = "pkill steam";
 						}
 					];
 					cmd = "wezterm start steam steam://open/gamepadui";
@@ -46,11 +46,15 @@
 					name = "Steam PSVITA";
                     prep-cmd = [
                         	{	
-								do = "sh /home/celveza/NixFiles/modules/sunshine/startPSVITA.sh";
-                            	undo = "sh /home/celveza/NixFiles/modules/sunshine/stopSteam.sh";
+								do = "wezterm";
+                            	undo = "pkill steam";
                         	}
                         ];
-                        cmd = "steam -gamepadui";
+                        detached = true;
+                        cmd = "
+                        wezterm start steam steam://o
+                        pen/gamepadui";
+                        auto-detach = true;
                         image-path = "/home/celveza/Pictures/Steam.png";
 				}
 			];

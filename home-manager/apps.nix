@@ -11,11 +11,13 @@
     airshipper
     android-tools
     anydesk
+    appimage-run
     azahar
     bitwarden-desktop
     bottom
     brave
     brightnessctl
+    cartridges
     cliphist
     deluge
     dolphin-emu
@@ -61,6 +63,7 @@
     protontricks
     protonup-qt
     retroarch
+    rpcs3
     ryubing
     slurp
     steam-rom-manager
@@ -73,6 +76,7 @@
     vesktop
     vlc
     vscode
+    vulkan-tools
     wget
     wineWowPackages.staging
     winetricks
