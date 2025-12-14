@@ -19,7 +19,7 @@
     ./regreet.nix
     ./steam.nix
     ./stylix.nix
-    ./sunshine.nix
+    ./sunshine/
     ./sql.nix
     ./tailscale.nix
     ./thunar.nix
