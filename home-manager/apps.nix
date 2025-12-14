@@ -60,6 +60,7 @@
     pavucontrol
     playerctl
     ppsspp
+    prismlauncher
     protontricks
     protonup-qt
     retroarch
