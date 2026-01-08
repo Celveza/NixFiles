@@ -1,5 +1,5 @@
 {pkgs, inputs, config, fonts, ...}: {
-	imports = [ inputs.stylix.homeManagerModules.stylix ];
+	imports = [ inputs.stylix.homeModules.stylix ];
 
 	home.packages = with pkgs; [
 		jetbrains-mono
@@ -23,6 +23,11 @@
 			waybar.enable = true;
 			rofi.enable = true;
 			hyprland.enable = false;
+			hyprpaper = {
+				enable = true;
+				image.enable = true;
+				image.override = "./wallpaper.jpg";
+			};
 			spicetify.enable = false;
 			hyprlock.enable = false;
 			wezterm.enable = true;
@@ -57,7 +62,7 @@
 			};
 		};
 
-		iconTheme = {
+		icons = {
 			enable = true;
 			package = pkgs.papirus-icon-theme;
 			dark = "Papirus-Dark";
@@ -65,8 +70,8 @@
 		};
 
 		cursor = {
-			package = pkgs.callPackage ./Natsuki.nix {};
-			name = "Natsuki";
+			package = pkgs.callPackage ./Pippa.nix {};
+			name = "Pippa";
 			size = 24;
 		};
 
