@@ -1,0 +1,3 @@
+{
+    wpaperd.enable = true;
+}

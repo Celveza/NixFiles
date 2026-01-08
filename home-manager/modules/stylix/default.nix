@@ -33,6 +33,9 @@
 			wezterm.enable = true;
 			firefox.enable = true;
 			vesktop.enable = true;
+			zen-browser.enable = true;
+			zen-browser.enableCss = true;
+			zen-browser.profileNames = ["Default Profile"];
 		};
 
 		fonts = {

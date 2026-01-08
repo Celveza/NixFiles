@@ -3,6 +3,7 @@
 	./main.nix
 	./lock.nix
 	#./idle.nix
-	./paper.nix
+	#./paper.nix
+	./wpaperd.nix
  ];
 }
