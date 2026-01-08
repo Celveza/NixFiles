@@ -1,3 +1,3 @@
 {
-    wpaperd.enable = true;
+    services.wpaperd.enable = true;
 }

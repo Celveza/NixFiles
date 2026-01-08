@@ -22,12 +22,6 @@
 			neovim.enable = true;
 			waybar.enable = true;
 			rofi.enable = true;
-			hyprland.enable = false;
-			hyprpaper = {
-				enable = true;
-				image.enable = true;
-				image.override = "./wallpaper.jpg";
-			};
 			spicetify.enable = false;
 			hyprlock.enable = false;
 			wezterm.enable = true;
