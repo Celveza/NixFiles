@@ -22,7 +22,6 @@
     deluge
     dolphin-emu
     dosbox
-    duckstation
     feishin
     ffmpeg
     ffmpegthumbnailer
@@ -34,6 +33,7 @@
     grim
     heroic
     htop
+    hyprpanel
     hyprshot
     imv
     inputs.mio-nur.packages.${pkgs.system}.jellyfin-media-player
@@ -48,6 +48,7 @@
     linux-wallpaperengine
     lutris
     mangohud
+    megasync
     melonDS
     mono
     moonlight-qt
