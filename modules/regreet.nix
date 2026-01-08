@@ -4,6 +4,10 @@
     enable = true;
     wayland.enable = true; # Importante para Hyprland
     # Opcional: Autologin
+
+  };
+
+  services.displayManager = {
     autoLogin = {
       enable = true;
       user = "celveza";
