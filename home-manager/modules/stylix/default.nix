@@ -67,8 +67,8 @@
 		};
 
 		cursor = {
-			package = pkgs.callPackage ./Pippa.nix {};
-			name = "Pippa";
+			package = pkgs.callPackage ./Lucy.nix {};
+			name = "Lucy";
 			size = 24;
 		};
 
