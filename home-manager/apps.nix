@@ -53,7 +53,6 @@
     mono
     moonlight-qt
     mpv
-    mysql-workbench
     networkmanagerapplet
     octave
     openvpn
