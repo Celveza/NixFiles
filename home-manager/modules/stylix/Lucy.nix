@@ -1,10 +1,10 @@
-{ stdenv }:
+{ stdenv, lib }:
 
 stdenv.mkDerivation{
 	pname = "Lucy";
 	version = "1.0";
 	src = ./Lucy.tar.gz;
-	installPhase = ''
+	installPhase =  ''
 		mkdir -p $out/share/icons
 		tar -xzf  $src -C $out/share/icons
 	'';

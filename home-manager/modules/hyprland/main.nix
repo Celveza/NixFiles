@@ -1,3 +1,4 @@
+{ lib, ...}:
 {
   wayland.windowManager.hyprland = {
 	enable = true;
@@ -49,7 +50,7 @@
             };
 
         shadow = {
-            color="rgba(1a1a1aee)";
+            color= lib.mkForce "rgba(1a1a1aee)";
             enabled=true;
             range=4;
             render_power=3;
