@@ -25,9 +25,10 @@
     ataraxiasjel.url = "github:AtaraxiaSjel/nur";
     jovian.url = "github:Jovian-Experiments/Jovian-NixOS";
     millennium.url = "github:trivaris/millennium?dir=packages/nix";
+    sops-nix.url = "github:Mic92/sops-nix";
   };
 
-  outputs = { self, nixpkgs, home-manager, nix-flatpak, stylix, spicetify-nix, ataraxiasjel, mio-nur, jovian, ... }@inputs:
+  outputs = { self, nixpkgs, home-manager, nix-flatpak, stylix, spicetify-nix, ataraxiasjel, mio-nur, jovian, sops-nix, ... }@inputs:
   let
    system = "x86_64-linux";
    homeStateVersion = "25.11";

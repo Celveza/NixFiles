@@ -8,6 +8,7 @@
 
   home.packages = with pkgs; [
     adwsteamgtk
+    age
     airshipper
     android-tools
     anydesk
@@ -69,6 +70,7 @@
     ryubing
     sgdboop
     slurp
+    sops
     steam-rom-manager
     teamspeak6-client
     tree
