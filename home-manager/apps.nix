@@ -6,6 +6,8 @@
     "electron-33.4.11"
   ];
 
+  programs.ghostty.enable = true;
+
   home.packages = with pkgs; [
     adwsteamgtk
     age

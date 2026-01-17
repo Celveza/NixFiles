@@ -30,6 +30,13 @@
 			zen-browser.enable = true;
 			zen-browser.enableCss = true;
 			zen-browser.profileNames = ["Default Profile"];
+
+
+			ghostty = {
+				enable = true;
+				colors.enable = true;
+				fonts.enable = true;
+			};
 		};
 
 		fonts = {

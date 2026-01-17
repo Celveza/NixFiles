@@ -9,7 +9,7 @@
         "$fileManager"="thunar";
         "$mainMod"="SUPER";
         "$menu"="rofi -show drun";
-        "$terminal" ="wezterm";
+        "$terminal" ="ghostty";
         
 
         animations = {
