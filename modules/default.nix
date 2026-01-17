@@ -6,7 +6,7 @@
     ./distrobox.nix
     ./env.nix
     ./firewall.nix
-#    ./flatpak.nix
+    ./flatpak.nix
     ./gc.nix
     ./home-manager.nix
     ./hyprland.nix

@@ -19,6 +19,11 @@
     pkgs.radeontop
   ];
 
+  hardware.graphics = {
+  enable = true;
+  enable32Bit = true;
+};
+
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
   # Configure network proxy if necessary

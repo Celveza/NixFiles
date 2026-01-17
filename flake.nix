@@ -24,6 +24,7 @@
     nix-flatpak.url = "github:gmodena/nix-flatpak";
     ataraxiasjel.url = "github:AtaraxiaSjel/nur";
     jovian.url = "github:Jovian-Experiments/Jovian-NixOS";
+    millennium.url = "github:trivaris/millennium?dir=packages/nix";
   };
 
   outputs = { self, nixpkgs, home-manager, nix-flatpak, stylix, spicetify-nix, ataraxiasjel, mio-nur, jovian, ... }@inputs:
