@@ -61,9 +61,13 @@
         };
 
         device = {
-        name="logitech-g203-lightsync-gaming-mouse";
-        accel_profile="flat";
-        sensitivity=-0.500000;
+          #name="logitech-g203-lightsync-gaming-mouse";
+          #accel_profile="flat";
+          #sensitivity=-0.500000;
+
+          name="realtek-mchose-a7-v2-ultra+";
+          accel_profile="flat";
+          sensitivity=-0.8;
         };
 
         dwindle = {
