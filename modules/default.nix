@@ -17,6 +17,7 @@
     ./plymouth.nix
     ./virt.nix
     ./regreet.nix
+    ./sops.nix
     ./steam.nix
     ./stylix.nix
     ./sunshine

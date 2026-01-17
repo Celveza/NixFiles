@@ -47,6 +47,7 @@
      stylix.nixosModules.stylix
 
 	jovian.nixosModules.jovian
+  sops-nix.nixosModules.sops
 
      ./hosts/${hostname}/configuration.nix    
    ];
