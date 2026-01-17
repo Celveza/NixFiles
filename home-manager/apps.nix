@@ -36,7 +36,7 @@
     hyprpanel
     hyprshot
     imv
-    inputs.mio-nur.packages.${pkgs.system}.jellyfin-media-player
+    jellyfin-media-player
     inputs.zen-browser.packages."${pkgs.system}".beta
     jellyfin-rpc
     kdePackages.akonadi
@@ -65,7 +65,9 @@
     protonup-qt
     retroarch
     rpcs3
+    rsync
     ryubing
+    sgdboop
     slurp
     steam-rom-manager
     teamspeak6-client
