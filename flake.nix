@@ -2,33 +2,35 @@
   description = "Nixos config flake";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+	
+     # Paquetes del sistema
+
+     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
 
      home-manager = {
        url = "github:nix-community/home-manager";
        inputs.nixpkgs.follows = "nixpkgs";
      };
 
+     # Estética
+
      stylix.url = "github:danth/stylix";
-
-     mio-nur = {
-	url = "github:mio-19/nurpkgs";
-	inputs.nixpkgs.follows = "nixpkgs";
-     };
-
+     millennium.url = "github:trivaris/millennium?dir=packages/nix";
      spicetify-nix = {
       url = "github:Gerg-L/spicetify-nix";
       inputs.nixpkgs.follows = "nixpkgs";
-    };
+     };
+
+     # Apps/Herramientas
+
     zen-browser.url = "github:0xc000022070/zen-browser-flake";
     nix-flatpak.url = "github:gmodena/nix-flatpak";
     ataraxiasjel.url = "github:AtaraxiaSjel/nur";
-    jovian.url = "github:Jovian-Experiments/Jovian-NixOS";
-    millennium.url = "github:trivaris/millennium?dir=packages/nix";
     sops-nix.url = "github:Mic92/sops-nix";
+  
   };
 
-  outputs = { self, nixpkgs, home-manager, nix-flatpak, stylix, spicetify-nix, ataraxiasjel, mio-nur, jovian, sops-nix, ... }@inputs:
+  outputs = { self, nixpkgs, home-manager, nix-flatpak, stylix, spicetify-nix, ataraxiasjel, sops-nix, ... }@inputs:
   let
    system = "x86_64-linux";
    homeStateVersion = "25.11";
@@ -45,10 +47,7 @@
 
    modules = [
      stylix.nixosModules.stylix
-
-	jovian.nixosModules.jovian
-  sops-nix.nixosModules.sops
-
+     sops-nix.nixosModules.sops
      ./hosts/${hostname}/configuration.nix    
    ];
   };

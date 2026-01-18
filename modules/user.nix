@@ -11,5 +11,7 @@
 
   environment.shellAliases = {
     edit-secrets = "export SOPS_AGE_KEY=$(sudo ssh-to-age -private-key -i /etc/ssh/ssh_host_ed25519_key) && sops secrets.yaml";
+    nhome = "nh home switch /home/celveza/NixFiles/";
+    nos = "nh os switch /home/celveza/NixFiles/";
   };
 }
