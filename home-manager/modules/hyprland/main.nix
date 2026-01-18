@@ -156,7 +156,7 @@
                 "$mainMod,       P, exec, hyprpicker -an"
                 "$mainMod,	 W, exec, zen-beta"
 		"$mainMod SHIFT, W, exec, zen-beta --private-window"
-		"$mainMod,	 Q, exec, wezterm"
+		"$mainMod,	 Q, exec, $terminal"
             ];
 
             bindel = [
