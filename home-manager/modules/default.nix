@@ -1,6 +1,7 @@
 {
   imports = [
     ./gallery.nix
+    ./ghostty.nix
     ./git.nix
     ./lazygit.nix
     ./neovim.nix
