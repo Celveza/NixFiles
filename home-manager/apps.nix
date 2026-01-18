@@ -73,6 +73,7 @@
     sgdboop
     slurp
     sops
+    ssh-to-age
     steam-rom-manager
     teamspeak6-client
     tree

@@ -9,5 +9,7 @@
     };
   };
 
-# services.getty.autologinUser = user;
+  environment.shellAliases = {
+    edit-secrets = "export SOPS_AGE_KEY=$(sudo ssh-to-age -private-key -i /etc/ssh/ssh_host_ed25519_key) && sops secrets.yaml";
+  };
 }
