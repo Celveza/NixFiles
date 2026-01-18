@@ -45,8 +45,10 @@
         blur = {
           enabled=true;
           passes=1;
-          size=3;
-          vibrancy=0.169600;
+          size=5;
+	  contrast=0.5;
+	  brightness = 0.8;
+          vibrancy=0;
             };
 
         shadow = {

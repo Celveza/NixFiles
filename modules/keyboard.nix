@@ -1,4 +1,4 @@
+{ pkgs, ... }:
 {
-i18n.defaultLocale = "es_ES.UTF-8";
-
+	i18n.defaultLocale = "es_ES.UTF-8";
 }

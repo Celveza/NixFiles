@@ -1,4 +1,4 @@
-{ inputs,... }:
+{ inputs, lib, ... }:
 {
   environment.sessionVariables = rec {
     TERMINAL = "wezterm";
@@ -9,5 +9,6 @@
       "${XDG_BIN_HOME}"
 #      "${XDG_DATA_DIRS}"
     ];
+    GTK_IM_MODULE = lib.mkForce "simple";
   };
 }

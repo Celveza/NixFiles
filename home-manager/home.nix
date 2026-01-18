@@ -9,7 +9,4 @@
     homeDirectory = "/home/${user}";
     stateVersion = homeStateVersion;
   };
-
- home.sessionVariables.NH_FLAKE = "/home/celveza/NixFiles/.";
-
 }

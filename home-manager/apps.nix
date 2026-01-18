@@ -2,11 +2,9 @@
 {
   nixpkgs.config.allowUnfree = true;
 
-  nixpkgs.config.permittedInsecurePackages = [
-    "electron-33.4.11"
-  ];
-
-  programs.ghostty.enable = true;
+ # nixpkgs.config.permittedInsecurePackages = [
+ #   "electron-33.4.11"
+ # ]
 
   home.packages = with pkgs; [
     adwsteamgtk
