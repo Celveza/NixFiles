@@ -13,6 +13,7 @@
     ./keyboard.nix
     ./net.nix
     ./nh.nix
+    ./niri.nix
     ./nix.nix
     ./plymouth.nix
     ./virt.nix
