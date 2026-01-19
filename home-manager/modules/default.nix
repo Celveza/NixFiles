@@ -3,17 +3,10 @@
     ./gallery.nix
     ./ghostty.nix
     ./git.nix
-    ./lazygit.nix
     ./neovim.nix
-    ./niri
-    #./regreet.nix
-    ./rofi.nix
     ./spicetify.nix
     #./starship.nix
-    ./swaync.nix
-    ./waybar
     ./fastfetch
-    ./hyprland
     ./stylix
   ];
 }

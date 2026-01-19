@@ -9,23 +9,21 @@
     ./flatpak.nix
     ./gc.nix
     ./home-manager.nix
-    ./hyprland.nix
+    ./kde.nix
     ./keyboard.nix
     ./net.nix
     ./nh.nix
-    ./niri.nix
     ./nix.nix
     ./plymouth.nix
-    ./virt.nix
-    ./regreet.nix
     ./sops.nix
+    ./sql.nix
     ./steam.nix
     ./stylix.nix
     ./sunshine
-    ./sql.nix
     ./tailscale.nix
     ./thunar.nix
     ./user.nix
     ./wireshark.nix
+    ./virt.nix
   ];
 }
