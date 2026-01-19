@@ -37,11 +37,13 @@
     hyprpanel
     hyprshot
     imv
+    iosevka
     jellyfin-media-player
     inputs.zen-browser.packages."${pkgs.system}".beta
     jellyfin-rpc
     kdePackages.akonadi
     kdePackages.kdenlive
+    kdePackages.qtstyleplugin-kvantum
     khal
     krita
     libnotify
@@ -55,6 +57,7 @@
     moonlight-qt
     mpv
     networkmanagerapplet
+    ocs-url
     octave
     openvpn
     p7zip
@@ -94,4 +97,10 @@
     zenity
     zip
   ];
+
+  qt = {
+  enable = true;
+  platformTheme.name = "kvantum";
+  style.name = "kvantum";
+};
 }

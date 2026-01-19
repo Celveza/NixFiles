@@ -7,6 +7,6 @@
     ./spicetify.nix
     #./starship.nix
     ./fastfetch
-    ./stylix
+    #./stylix
   ];
 }

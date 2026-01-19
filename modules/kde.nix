@@ -27,5 +27,7 @@ environment.systemPackages = with pkgs;
     vlc # Cross-platform media player and streaming server
     wayland-utils # Wayland utilities
     wl-clipboard # Command-line copy/paste utilities for Wayland
+    kdePackages.qtstyleplugin-kvantum
+    libsForQt5.qt5ct
   ];
 }

@@ -30,7 +30,7 @@
 			zen-browser.enable = true;
 			zen-browser.enableCss = true;
 			zen-browser.profileNames = ["Default Profile"];
-
+			kde.enable = true;
 
 			ghostty = {
 				enable = true;
