@@ -5,7 +5,7 @@
     ./git.nix
     ./lazygit.nix
     ./neovim.nix
-    ./niri/niri.nix
+    ./niri
     #./regreet.nix
     ./rofi.nix
     ./spicetify.nix
