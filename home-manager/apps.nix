@@ -21,6 +21,7 @@
     cartridges
     cliphist
     deluge
+    discord
     dolphin-emu
     dosbox
     feishin
@@ -32,6 +33,7 @@
     gnome-disk-utility
     goverlay
     grim
+    halloy
     heroic
     htop
     hyprpanel
@@ -42,7 +44,8 @@
     inputs.zen-browser.packages."${pkgs.system}".beta
     jellyfin-rpc
     kdePackages.akonadi
-    kdePackages.kdenlive
+    #kdePackages.kdenlive
+    kdePackages.kdepim-addons
     kdePackages.qtstyleplugin-kvantum
     khal
     krita
@@ -56,17 +59,21 @@
     mono
     moonlight-qt
     mpv
+    muffon
     networkmanagerapplet
     ocs-url
     octave
     openvpn
+    osu-lazer
     p7zip
     pavucontrol
     playerctl
     ppsspp
     prismlauncher
+    protonplus
     protontricks
     protonup-qt
+    qpwgraph
     retroarch
     rpcs3
     rsync
@@ -76,6 +83,7 @@
     sops
     ssh-to-age
     steam-rom-manager
+    tailscale-systray
     teamspeak6-client
     tree
     ueberzugpp
@@ -93,7 +101,7 @@
     xdelta
     xivlauncher
     yad
-    zed
+    zed-editor
     zenity
     zip
   ];

@@ -15,6 +15,7 @@
     ./nh.nix
     ./nix.nix
     ./plymouth.nix
+    ./services.nix
     ./sops.nix
     ./sql.nix
     ./steam.nix

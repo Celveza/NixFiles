@@ -14,4 +14,5 @@
     nhome = "nh home switch /home/celveza/NixFiles/";
     nos = "nh os switch /home/celveza/NixFiles/";
   };
+  documentation.enable = false;
 }

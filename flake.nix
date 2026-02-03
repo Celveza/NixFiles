@@ -2,7 +2,7 @@
   description = "Nixos config flake";
 
   inputs = {
-	
+
      # Paquetes del sistema
 
      nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
@@ -30,7 +30,7 @@
     nix-flatpak.url = "github:gmodena/nix-flatpak";
     ataraxiasjel.url = "github:AtaraxiaSjel/nur";
     sops-nix.url = "github:Mic92/sops-nix";
-  
+
   };
 
   outputs = { self, nixpkgs, home-manager, nix-flatpak, stylix, spicetify-nix, ataraxiasjel, sops-nix, niri, ... }@inputs:
@@ -52,7 +52,8 @@
      niri.nixosModules.niri
      stylix.nixosModules.stylix
      sops-nix.nixosModules.sops
-     ./hosts/${hostname}/configuration.nix    
+     nix-flatpak.nixosModules.nix-flatpak
+     ./hosts/${hostname}/configuration.nix
    ];
   };
   in
