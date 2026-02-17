@@ -8,6 +8,8 @@ services = {
   displayManager.sddm.wayland.enable = true;
 };
 
+#nixos.pkgs.wallpaper-engine-kde-plugin.enable = true;
+
 environment.systemPackages = with pkgs;
   [
     # KDE

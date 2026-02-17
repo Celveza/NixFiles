@@ -24,7 +24,7 @@
     ./tailscale.nix
     ./thunar.nix
     ./user.nix
-    ./wireshark.nix
     ./virt.nix
+    ./wireshark.nix
   ];
 }

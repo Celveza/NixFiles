@@ -33,6 +33,8 @@
     gnome-disk-utility
     goverlay
     grim
+    gns3-gui
+    gns3-server
     halloy
     heroic
     htop
@@ -41,10 +43,10 @@
     imv
     iosevka
     jellyfin-media-player
-    inputs.zen-browser.packages."${pkgs.system}".beta
+    inputs.zen-browser.packages."${pkgs.stdenv.hostPlatform.system}".beta
     jellyfin-rpc
     kdePackages.akonadi
-    #kdePackages.kdenlive
+    kdePackages.kdenlive
     kdePackages.kdepim-addons
     kdePackages.qtstyleplugin-kvantum
     khal
@@ -55,7 +57,7 @@
     lutris
     mangohud
     megasync
-    melonDS
+    melonds
     mono
     moonlight-qt
     mpv
@@ -73,6 +75,7 @@
     protonplus
     protontricks
     protonup-qt
+    python3
     qpwgraph
     retroarch
     rpcs3

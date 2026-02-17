@@ -3,7 +3,7 @@
   environment.systemPackages = [
     pkgs.virt-manager
     pkgs.qemu
-    inputs.ataraxiasjel.packages.x86_64-linux.waydroid-script
+    #inputs.ataraxiasjel.packages.x86_64-linux.waydroid-script
     pkgs.OVMFFull
   ];
 
