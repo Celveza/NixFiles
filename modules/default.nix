@@ -7,6 +7,7 @@
     ./env.nix
     ./firewall.nix
     ./flatpak.nix
+    ./fonts.nix
     ./gc.nix
     ./home-manager.nix
     ./kde.nix

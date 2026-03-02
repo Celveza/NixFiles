@@ -6,7 +6,7 @@
     wantedBy = [ "default.target" ];
     serviceConfig = {
       ExecStart = ''
-        ${pkgs.pipewire}/bin/pw-loopback --latency-msec=10
+        ${pkgs.pipewire}/bin/pw-loopback --latency=10
       '';
       Restart = "on-failure";
       RestartSec = 5;

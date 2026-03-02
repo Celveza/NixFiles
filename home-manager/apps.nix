@@ -106,6 +106,7 @@
      winetricks
      wl-clipboard
      xdelta
+     xenia-canary
      xivlauncher
      yad
      zed-editor
