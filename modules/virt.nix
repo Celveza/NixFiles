@@ -7,11 +7,23 @@
     pkgs.OVMFFull
   ];
 
-  virtualisation.libvirtd.enable = true;
-  virtualisation.libvirtd.qemu.vhostUserPackages = [pkgs.virtiofsd];
+  virtualisation.libvirtd = {
+    enable = true;
+    onBoot = "start";
+    qemu = {
+      package = pkgs.qemu_kvm;
+      runAsRoot = true;
+      vhostUserPackages = [ pkgs.virtiofsd ];
+    };
+  };
+  services.envfs.enable = true;
   virtualisation.waydroid.enable = true;
 
   virtualisation.virtualbox.host.enable = true;
   users.extraGroups.vboxusers.members = [ "celveza" ];
   virtualisation.virtualbox.host.enableExtensionPack = true;
+
+  systemd.services.virt-secret-init-encryption = {
+    path = [ pkgs.coreutils pkgs.systemd ];
+  };
 }

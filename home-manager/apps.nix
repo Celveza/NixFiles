@@ -63,6 +63,7 @@
      mpv
      muffon
      networkmanagerapplet
+     nextcloud-client
      noto-fonts
      noto-fonts-cjk-sans
      noto-fonts-cjk-serif
@@ -73,6 +74,7 @@
      osu-lazer
      p7zip
      pavucontrol
+     pear-desktop
      playerctl
      ppsspp
      prismlauncher

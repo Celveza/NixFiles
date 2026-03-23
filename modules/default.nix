@@ -15,6 +15,7 @@
     ./net.nix
     ./nh.nix
     ./nix.nix
+    ./obs.nix
     ./plymouth.nix
     ./services.nix
     ./sops.nix
