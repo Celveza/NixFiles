@@ -18,7 +18,6 @@ in
 			adblock
 			fullScreen
 			volumePercentage
-			oneko
 			skipStats
 			showQueueDuration
 			copyToClipboard

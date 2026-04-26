@@ -1,7 +1,7 @@
 { pkgs, ... }:
 {
   systemd.user.services.wiiu-capturadora = {
-    enable = true;
+    enable = false;
     after = [ "pipewire.service" ];
     wantedBy = [ "default.target" ];
     serviceConfig = {

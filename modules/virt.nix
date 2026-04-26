@@ -15,6 +15,7 @@
       runAsRoot = true;
       vhostUserPackages = [ pkgs.virtiofsd ];
     };
+    firewallBackend = "iptables";
   };
   services.envfs.enable = true;
   virtualisation.waydroid.enable = true;

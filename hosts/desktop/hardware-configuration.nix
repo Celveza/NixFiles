@@ -17,6 +17,12 @@
     { device = "/dev/disk/by-uuid/4e727074-9fe1-4b9f-905b-61bc5ddcbd0e";
       fsType = "ext4";
     };
+  
+  fileSystems."/mnt/Windows" = {
+  device = "/dev/disk/by-uuid/C0BA24EBBA24DFA0";
+  fsType = "ntfs3";
+  options = [ "noauto" ];
+};
 
   fileSystems."/boot" =
     { device = "/dev/disk/by-uuid/F661-AD3E";

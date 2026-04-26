@@ -3,16 +3,17 @@
 
 	home.packages = with pkgs; [
 		jetbrains-mono
-    		noto-fonts
-    		noto-fonts-color-emoji
-    		twemoji-color-font
-    		font-awesome
-    		powerline-fonts
-    		powerline-symbols
+    	noto-fonts
+    	noto-fonts-color-emoji
+    	twemoji-color-font
+    	font-awesome
+    	powerline-fonts
+    	powerline-symbols
         nerd-fonts.symbols-only
         dejavu_fonts
-	    	noto-fonts-lgc-plus
+	    noto-fonts-lgc-plus
 		iosevka
+		cambria
 	];
 
 
