@@ -2,9 +2,19 @@
 {
   nixpkgs.config.allowUnfree = true;
 
- # nixpkgs.config.permittedInsecurePackages = [
- #   "electron-33.4.11"
- # ]
+  nixpkgs.config.permittedInsecurePackages = [
+    "electron-39.8.10"
+  ];
+
+  # Se añade el overlay para desactivar el test específicamente en openldap
+nixpkgs.overlays = [
+    (final: prev: {
+      openldap = prev.openldap.overrideAttrs (oldAttrs: {
+        doCheck = !prev.stdenv.hostPlatform.isi686;
+      });
+    })
+  ];
+
 
  home.packages = with pkgs; [
      adwsteamgtk
@@ -13,17 +23,20 @@
      android-tools
      anydesk
      appimage-run
+     archipelago
      azahar
+     basex
      bitwarden-desktop
      bottom
      brave
      brightnessctl
+     cameractrls-gtk3
      cartridges
      cliphist
      deluge
-     discord
      dolphin-emu
      dosbox
+     easyeffects
      feishin
      ffmpeg
      ffmpegthumbnailer
@@ -42,6 +55,7 @@
      hyprshot
      imv
      iosevka
+     jdk
      jellyfin-media-player
      inputs.zen-browser.packages."${pkgs.stdenv.hostPlatform.system}".beta
      jellyfin-rpc
@@ -83,17 +97,21 @@
      protonup-qt
      python3
      qpwgraph
-     retroarch
+     r2modman
+     #retroarch-full
+     rPackages.tinytex
      rpcs3
      rsync
      ryubing
      sgdboop
      slurp
+     snes9x
      sops
      ssh-to-age
      steam-rom-manager
      tailscale-systray
      teamspeak6-client
+     (texliveSmall.withPackages (ps: with ps; [ chktex latexmk todonotes enumitem ]))
      tree
      ueberzugpp
      umu-launcher
@@ -108,8 +126,14 @@
      winetricks
      wl-clipboard
      xdelta
+     xdotool
      xenia-canary
      xivlauncher
+     xmlcopyeditor
+     xprop
+     xrandr
+     xwininfo
+     xxd
      yad
      zed-editor
      zenity
@@ -121,4 +145,6 @@
   platformTheme.name = "kvantum";
   style.name = "kvantum";
 };
+
+
 }
