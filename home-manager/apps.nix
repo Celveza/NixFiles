@@ -26,7 +26,6 @@ nixpkgs.overlays = [
      archipelago
      azahar
      basex
-     bitwarden-desktop
      bottom
      brave
      brightnessctl
@@ -100,7 +99,6 @@ nixpkgs.overlays = [
      r2modman
      #retroarch-full
      rPackages.tinytex
-     rpcs3
      rsync
      ryubing
      sgdboop
@@ -122,7 +120,7 @@ nixpkgs.overlays = [
      vscode
      vulkan-tools
      wget
-     wineWowPackages.staging
+     wineWow64Packages.wayland
      winetricks
      wl-clipboard
      xdelta

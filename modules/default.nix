@@ -3,6 +3,7 @@
     ./audio.nix
     ./bluetooth.nix
     ./boot.nix
+    ./discord.nix
     ./distrobox.nix
     ./env.nix
     ./firewall.nix
